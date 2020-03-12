@@ -27,13 +27,6 @@ CASA obter_estado_casa(ESTADO *e, COORDENADA c){
     CASA casa = tabu[c.coluna][c.linha];
     return casa;
 }
-/*
- * Esta função deverá criar um estado vazio (com o tabuleiro inicializado)
- * obter_jogador_atual Esta função permite obter o número do jogador atual
- * obter_estado_casa Esta função permite obter o estado atual da casa
- * obter_numero_de_jogadas Esta função permite obter quantas jogadas
- * foram efetuadas (cada jogada tem o movimento de dois jogadores)
-*/
 
 ESTADO *inicializar_estado() {
     ESTADO *e = (ESTADO *) malloc(sizeof(ESTADO));
