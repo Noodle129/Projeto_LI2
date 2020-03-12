@@ -18,7 +18,6 @@ typedef JOGADA JOGADAS[32];
 typedef struct {
     CASA tab[8][8];
     COORDENADA ultima_jogada;
-
     JOGADAS jogadas;
     int num_jogadas;
     int jogador_atual;

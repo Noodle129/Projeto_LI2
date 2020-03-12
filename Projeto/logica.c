@@ -26,3 +26,4 @@ int jogar(ESTADO *e, COORDENADA c) {
         atualiza_tabuleiro(e,c);
     return 1;
 }
+
