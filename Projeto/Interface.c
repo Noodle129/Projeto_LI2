@@ -6,6 +6,7 @@
 #include "Interface.h"
 #define BUF_SIZE 1024
 
+
 // Função que imprime uma unica peça
 void imprimePeca(CASA c){
     if(c==VAZIO)
@@ -32,9 +33,16 @@ void mostrar_tabuleiro(ESTADO *e) {
     }
 }
 
-// Função que deve ser colocada no ficheiro main.c
-int main() {
-    ESTADO *e = inicializar_estado();
-    interpretador(e);
+// Função que deve ser completada e colocada na camada de interface
+int interpretador(ESTADO *e) {
+    char linha[BUF_SIZE];
+    char col[2], lin[2];
+    if(fgets(linha, BUF_SIZE, stdin) == NULL)
     return 0;
+    if(strlen(linha) == 3 && sscanf(linha, "%[a-h]%[1-8]", col, lin) == 2) {
+        COORDENADA coord = {*col - 'a', *lin - '1'
+        }};
+    jogar(e, coord);
+    mostrar_tabuleiro(e);
 }
+return 1;

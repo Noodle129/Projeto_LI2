@@ -1,0 +1,4 @@
+#ifndef PROJETO_LOGICA_H
+#define PROJETO_LOGICA_H
+
+#endif //PROJETO_LOGICA_H
