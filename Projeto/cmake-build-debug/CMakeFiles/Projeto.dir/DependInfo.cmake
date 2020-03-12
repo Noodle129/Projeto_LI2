@@ -4,9 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/antonio/LI2/Projeto/main.c" "/home/antonio/LI2/Projeto/cmake-build-debug/CMakeFiles/Projeto.dir/main.c.o"
+  "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/Dados.c" "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/cmake-build-debug/CMakeFiles/Projeto.dir/Dados.c.o"
+  "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/Interface.c" "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/cmake-build-debug/CMakeFiles/Projeto.dir/Interface.c.o"
+  "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/logica.c" "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/cmake-build-debug/CMakeFiles/Projeto.dir/logica.c.o"
+  "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/main.c" "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/cmake-build-debug/CMakeFiles/Projeto.dir/main.c.o"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

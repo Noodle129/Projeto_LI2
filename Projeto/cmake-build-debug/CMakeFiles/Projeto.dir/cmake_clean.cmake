@@ -1,4 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Projeto.dir/Dados.c.o"
+  "CMakeFiles/Projeto.dir/Interface.c.o"
+  "CMakeFiles/Projeto.dir/logica.c.o"
   "CMakeFiles/Projeto.dir/main.c.o"
   "Projeto"
   "Projeto.pdb"

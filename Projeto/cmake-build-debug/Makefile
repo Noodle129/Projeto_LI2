@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/103/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = "/Users/lidiasousa/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /snap/clion/103/bin/cmake/linux/bin/cmake -E remove -f
+RM = "/Users/lidiasousa/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/antonio/LI2/Projeto
+CMAKE_SOURCE_DIR = "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/antonio/LI2/Projeto/cmake-build-debug
+CMAKE_BINARY_DIR = "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/antonio/LI2/Projeto/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/103/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/lidiasousa/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/103/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/lidiasousa/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.6015.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonio/LI2/Projeto/cmake-build-debug/CMakeFiles /home/antonio/LI2/Projeto/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/cmake-build-debug/CMakeFiles" "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonio/LI2/Projeto/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,87 @@ Projeto/fast:
 	$(MAKE) -f CMakeFiles/Projeto.dir/build.make CMakeFiles/Projeto.dir/build
 .PHONY : Projeto/fast
 
+Dados.o: Dados.c.o
+
+.PHONY : Dados.o
+
+# target to build an object file
+Dados.c.o:
+	$(MAKE) -f CMakeFiles/Projeto.dir/build.make CMakeFiles/Projeto.dir/Dados.c.o
+.PHONY : Dados.c.o
+
+Dados.i: Dados.c.i
+
+.PHONY : Dados.i
+
+# target to preprocess a source file
+Dados.c.i:
+	$(MAKE) -f CMakeFiles/Projeto.dir/build.make CMakeFiles/Projeto.dir/Dados.c.i
+.PHONY : Dados.c.i
+
+Dados.s: Dados.c.s
+
+.PHONY : Dados.s
+
+# target to generate assembly for a file
+Dados.c.s:
+	$(MAKE) -f CMakeFiles/Projeto.dir/build.make CMakeFiles/Projeto.dir/Dados.c.s
+.PHONY : Dados.c.s
+
+Interface.o: Interface.c.o
+
+.PHONY : Interface.o
+
+# target to build an object file
+Interface.c.o:
+	$(MAKE) -f CMakeFiles/Projeto.dir/build.make CMakeFiles/Projeto.dir/Interface.c.o
+.PHONY : Interface.c.o
+
+Interface.i: Interface.c.i
+
+.PHONY : Interface.i
+
+# target to preprocess a source file
+Interface.c.i:
+	$(MAKE) -f CMakeFiles/Projeto.dir/build.make CMakeFiles/Projeto.dir/Interface.c.i
+.PHONY : Interface.c.i
+
+Interface.s: Interface.c.s
+
+.PHONY : Interface.s
+
+# target to generate assembly for a file
+Interface.c.s:
+	$(MAKE) -f CMakeFiles/Projeto.dir/build.make CMakeFiles/Projeto.dir/Interface.c.s
+.PHONY : Interface.c.s
+
+logica.o: logica.c.o
+
+.PHONY : logica.o
+
+# target to build an object file
+logica.c.o:
+	$(MAKE) -f CMakeFiles/Projeto.dir/build.make CMakeFiles/Projeto.dir/logica.c.o
+.PHONY : logica.c.o
+
+logica.i: logica.c.i
+
+.PHONY : logica.i
+
+# target to preprocess a source file
+logica.c.i:
+	$(MAKE) -f CMakeFiles/Projeto.dir/build.make CMakeFiles/Projeto.dir/logica.c.i
+.PHONY : logica.c.i
+
+logica.s: logica.c.s
+
+.PHONY : logica.s
+
+# target to generate assembly for a file
+logica.c.s:
+	$(MAKE) -f CMakeFiles/Projeto.dir/build.make CMakeFiles/Projeto.dir/logica.c.s
+.PHONY : logica.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -157,8 +238,17 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Projeto"
 	@echo "... edit_cache"
+	@echo "... Projeto"
+	@echo "... Dados.o"
+	@echo "... Dados.i"
+	@echo "... Dados.s"
+	@echo "... Interface.o"
+	@echo "... Interface.i"
+	@echo "... Interface.s"
+	@echo "... logica.o"
+	@echo "... logica.i"
+	@echo "... logica.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
