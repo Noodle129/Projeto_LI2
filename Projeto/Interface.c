@@ -8,6 +8,7 @@
 
 
 // Função que imprime uma unica peça
+
 void imprimePeca(CASA c){
     if(c==VAZIO)
         printf(".");
@@ -18,6 +19,7 @@ void imprimePeca(CASA c){
 }
 
 // Função que deve ser completada e colocada na camada de interface
+
 void mostrar_tabuleiro(ESTADO *e) {
     for (int i = 0; i <8 ; i++) {
         for (int j = 0; j < 8; j++) {

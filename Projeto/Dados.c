@@ -1,6 +1,5 @@
 #ifndef LI2G09_STRUCT_FILE_H
 #define LI2G09_STRUCT_FILE_H
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -52,7 +51,6 @@ ESTADO *inicializar_estado() {
     return e;
 
 }
-
 
 
 

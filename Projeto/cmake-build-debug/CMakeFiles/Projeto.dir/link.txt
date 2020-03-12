@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/Projeto.dir/main.c.o  -o Projeto 
+/Library/Developer/CommandLineTools/usr/bin/cc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Projeto.dir/main.c.o CMakeFiles/Projeto.dir/Dados.c.o CMakeFiles/Projeto.dir/Interface.c.o CMakeFiles/Projeto.dir/logica.c.o  -o Projeto 

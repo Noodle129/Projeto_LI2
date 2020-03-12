@@ -6,6 +6,7 @@
 #include "Interface.h"
 #define BUF_SIZE 1024
 
+
 // Função que imprime uma unica peça
 void imprimePeca(CASA c){
     if(c==VAZIO)
