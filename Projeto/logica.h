@@ -5,4 +5,8 @@
 #ifndef PROJETO_LOGICA_H
 #define PROJETO_LOGICA_H
 
+#include "Dados.h"
+
+int jogar(ESTADO *e, COORDENADA c);
+
 #endif //PROJETO_LOGICA_H
