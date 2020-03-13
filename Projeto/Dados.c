@@ -8,6 +8,11 @@
 #include "logica.h"
 #include "Interface.h"
 
+COORDENADA converte_coordenada(COORDENADA c){
+    c.linha = 7 - c.linha;
+    return c;
+}
+
 ESTADO *inicializar_estado()
 {
     ESTADO *estadoinicial;
@@ -25,7 +30,6 @@ ESTADO *inicializar_estado()
             .jogadas = {},
             .num_jogadas = 0,
             .jogador_atual = 1});
-
     return estadoinicial;
 }
 
@@ -48,6 +52,5 @@ CASA obter_estado_casa(ESTADO *e, COORDENADA c){
     CASA cestado = e->tab[c.coluna][c.linha];
     return cestado;
 }
-
 
 #endif //LI2G09_STRUCT_FILE_H

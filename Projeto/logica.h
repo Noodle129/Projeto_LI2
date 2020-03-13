@@ -7,6 +7,6 @@
 
 #include "Dados.h"
 
-int jogar(ESTADO *e, COORDENADA c);
+ESTADO *jogar(ESTADO *e, COORDENADA c);
 
 #endif //PROJETO_LOGICA_H
