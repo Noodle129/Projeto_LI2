@@ -40,8 +40,8 @@ int interpretador(ESTADO *e) {
     if (strlen(linha) == 3 && sscanf(linha, "%[a-h]%[1-8]", col, lin) == 2) {
         COORDENADA coord = {*col - 'a', *lin - '1'};
         coord = converte_coordenada(coord);
-    };
-    e = jogar(e, coord);
-    mostrar_tabuleiro(e);
+        e = jogar(e, coord);
+        mostrar_tabuleiro(e);
+    }
     return 1;
 }
