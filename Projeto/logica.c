@@ -37,8 +37,11 @@ ESTADO *atualiza_tabuleiro(ESTADO *e, COORDENADA c){
 }
 
 int atualiza_jogador (ESTADO *e) {
-
+    int j;
+    if (e->jogador_atual == 1) j++;
+    else j;
 }
+
 
 ESTADO atualiza_estado(ESTADO *e, COORDENADA c){
     ESTADO *estado;

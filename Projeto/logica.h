@@ -7,6 +7,8 @@
 
 #include "Dados.h"
 
+int atualiza_jogador (ESTADO *e);
 ESTADO *jogar(ESTADO *e, COORDENADA c);
+
 
 #endif //PROJETO_LOGICA_H
