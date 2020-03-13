@@ -6,6 +6,7 @@
 #include "Interface.h"
 #define BUF_SIZE 1024
 
+// Função que verifica a jogada conforme o estado da casa e o "range" da mesma
 int verifica_jogada(ESTADO *e,COORDENADA c){
     COORDENADA coord = {c.coluna-1,c.linha+1};
     if (obter_estado_casa(e,coord) == VAZIO) {
@@ -27,6 +28,7 @@ int verifica_jogada(ESTADO *e,COORDENADA c){
         return 0;}
 }
 
+// Função que atualiza o tabuleiro conforme a coordenada da jogada
 ESTADO *atualiza_tabuleiro(ESTADO *e, COORDENADA c){
     COORDENADA uj = e->ultima_jogada;
     int col = uj.coluna;
@@ -36,25 +38,31 @@ ESTADO *atualiza_tabuleiro(ESTADO *e, COORDENADA c){
     return e;
 }
 
+// Função que alterna o jogador atual
 int atualiza_jogador (ESTADO *e) {
     int j;
     if (e->jogador_atual == 1) j++;
     else j;
 }
 
+// Função que atualiza as jogadas efetuadas
+atualiza_jogadas (ESTADO *e, COORDENADA c){
 
+}
+
+// Função que atualiza o estado do jogo, com base nas funções anteriores.
 ESTADO atualiza_estado(ESTADO *e, COORDENADA c){
     ESTADO *estado;
     estado = &((ESTADO){.tab = atualiza_tabuleiro(e,c),
             .ultima_jogada = c,
             .jogadas = atualiza_jogadas (e,c),
-            .num_jogadas += 1,
-            .jogador_atual = atualiza_jogador(e)});
+            .jogador_atual = atualiza_jogador(e),
+            .num_jogadas ++});
     return estado;
 }
 
 
-// Função que deve ser completada e colocada na camada da lógica do programa
+// Função jogar
 ESTADO *jogar(ESTADO *e, COORDENADA c) {
     printf("jogar %d %d\n", c.coluna, c.linha);
     int valido = verifica_jogada(e,c);

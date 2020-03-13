@@ -6,6 +6,7 @@
 #include "Interface.h"
 #define BUF_SIZE 1024
 
+// Função que relaciona o estado da casa com o respetivo símbolo
 void imprimePeca(CASA c){
     if(c==VAZIO)
         printf(".");
@@ -15,6 +16,7 @@ void imprimePeca(CASA c){
         printf("*");
 }
 
+// Função mostra_tabuleiro
 void mostrar_tabuleiro(ESTADO *e) {
     for (int i = 0; i <8 ; i++) {
         for (int j = 0; j < 8; j++) {
@@ -30,7 +32,7 @@ void mostrar_tabuleiro(ESTADO *e) {
     }
 }
 
-// Função que deve ser completada e colocada na camada de interface
+// Função interpretador
 int interpretador(ESTADO *e) {
     char linha[BUF_SIZE];
     char col[2], lin[2];
