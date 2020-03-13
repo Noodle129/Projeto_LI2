@@ -6,6 +6,8 @@
 #include "Interface.h"
 #define BUF_SIZE 1024
 
+int interpretador(ESTADO *e);
+
 // Função que deve ser colocada no ficheiro main.c
 int main() {
     ESTADO *e = inicializar_estado();

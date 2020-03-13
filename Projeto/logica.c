@@ -57,10 +57,9 @@ ESTADO atualiza_estado(ESTADO *e, COORDENADA c){
             .ultima_jogada = c,
             .jogadas = atualiza_jogadas (e,c),
             .jogador_atual = atualiza_jogador(e),
-            .num_jogadas ++});
-    return estado;
+            .num_jogadas = e->num_jogadas ++});
+    return *estado;
 }
-
 
 // Função jogar
 ESTADO *jogar(ESTADO *e, COORDENADA c) {
