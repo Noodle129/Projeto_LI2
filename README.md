@@ -8,5 +8,7 @@ Grupo 2 - PL8
 Projeto desenvolvido por:
 
 Lídia Anaís Coelho de Sousa A93205
+
 António Ricardo Vieira da Fonseca A93167
+
 João Luis Tibo Machado dos Santos A93235
