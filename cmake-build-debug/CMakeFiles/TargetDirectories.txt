@@ -1,0 +1,3 @@
+/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2_/Projeto/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2_/Projeto/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2_/Projeto/cmake-build-debug/CMakeFiles/Projeto.dir
