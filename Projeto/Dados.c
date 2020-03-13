@@ -1,6 +1,5 @@
 #ifndef LI2G09_STRUCT_FILE_H
 #define LI2G09_STRUCT_FILE_H
-
 #include <stdio.h>
 #include "Dados.h"
 #include <stdlib.h>
@@ -22,7 +21,7 @@ ESTADO *inicializar_estado()
             {VAZIO, VAZIO, VAZIO, VAZIO, VAZIO, VAZIO, VAZIO, VAZIO},
             {VAZIO, VAZIO, VAZIO, VAZIO, VAZIO, VAZIO, VAZIO, VAZIO},
             {VAZIO, VAZIO, VAZIO, VAZIO, VAZIO, VAZIO, VAZIO, VAZIO}},
-            .ultima_jogada = {4, 4},
+            .ultima_jogada = {4, 3},
             .jogadas = {},
             .num_jogadas = 0,
             .jogador_atual = 1});

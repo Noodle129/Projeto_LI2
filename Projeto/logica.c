@@ -15,15 +15,17 @@ int verifica_jogada(ESTADO *e,COORDENADA c){
         if((uj.coluna >= (col - 1)) && (uj.coluna <= (col +1)) && (uj.linha >= (l - 1)) && (uj.linha <= (l +1)))
             return 1;
     }
-    else return 0;
+    return 0;
 }
 
 // Função que deve ser completada e colocada na camada da lógica do programa
 int jogar(ESTADO *e, COORDENADA c) {
     printf("jogar %d %d\n", c.coluna, c.linha);
     int valido = verifica_jogada(e,c);
-    if(valido)
-        atualiza_tabuleiro(e,c);
-    return 1;
+    if (verifica_jogada(e,c)){
+        e->tab[c.linha][c.coluna] = BRANCA;
+        return 1;}
+    else{
+        return 0;
+    }
 }
-

@@ -43,10 +43,10 @@ RM = "/Users/lidiasousa/Library/Application Support/JetBrains/Toolbox/apps/CLion
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto"
+CMAKE_SOURCE_DIR = "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2_/Projeto"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2_/Projeto/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Projeto.dir/depend.make
@@ -59,55 +59,55 @@ include CMakeFiles/Projeto.dir/flags.make
 
 CMakeFiles/Projeto.dir/main.c.o: CMakeFiles/Projeto.dir/flags.make
 CMakeFiles/Projeto.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Projeto.dir/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Projeto.dir/main.c.o   -c "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2_/Projeto/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Projeto.dir/main.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Projeto.dir/main.c.o   -c "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2_/Projeto/main.c"
 
 CMakeFiles/Projeto.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projeto.dir/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/main.c" > CMakeFiles/Projeto.dir/main.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2_/Projeto/main.c" > CMakeFiles/Projeto.dir/main.c.i
 
 CMakeFiles/Projeto.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projeto.dir/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/main.c" -o CMakeFiles/Projeto.dir/main.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2_/Projeto/main.c" -o CMakeFiles/Projeto.dir/main.c.s
 
 CMakeFiles/Projeto.dir/Dados.c.o: CMakeFiles/Projeto.dir/flags.make
 CMakeFiles/Projeto.dir/Dados.c.o: ../Dados.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Projeto.dir/Dados.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Projeto.dir/Dados.c.o   -c "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/Dados.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2_/Projeto/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Projeto.dir/Dados.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Projeto.dir/Dados.c.o   -c "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2_/Projeto/Dados.c"
 
 CMakeFiles/Projeto.dir/Dados.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projeto.dir/Dados.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/Dados.c" > CMakeFiles/Projeto.dir/Dados.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2_/Projeto/Dados.c" > CMakeFiles/Projeto.dir/Dados.c.i
 
 CMakeFiles/Projeto.dir/Dados.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projeto.dir/Dados.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/Dados.c" -o CMakeFiles/Projeto.dir/Dados.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2_/Projeto/Dados.c" -o CMakeFiles/Projeto.dir/Dados.c.s
 
 CMakeFiles/Projeto.dir/Interface.c.o: CMakeFiles/Projeto.dir/flags.make
 CMakeFiles/Projeto.dir/Interface.c.o: ../Interface.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Projeto.dir/Interface.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Projeto.dir/Interface.c.o   -c "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/Interface.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2_/Projeto/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Projeto.dir/Interface.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Projeto.dir/Interface.c.o   -c "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2_/Projeto/Interface.c"
 
 CMakeFiles/Projeto.dir/Interface.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projeto.dir/Interface.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/Interface.c" > CMakeFiles/Projeto.dir/Interface.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2_/Projeto/Interface.c" > CMakeFiles/Projeto.dir/Interface.c.i
 
 CMakeFiles/Projeto.dir/Interface.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projeto.dir/Interface.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/Interface.c" -o CMakeFiles/Projeto.dir/Interface.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2_/Projeto/Interface.c" -o CMakeFiles/Projeto.dir/Interface.c.s
 
 CMakeFiles/Projeto.dir/logica.c.o: CMakeFiles/Projeto.dir/flags.make
 CMakeFiles/Projeto.dir/logica.c.o: ../logica.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Projeto.dir/logica.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Projeto.dir/logica.c.o   -c "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/logica.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2_/Projeto/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Projeto.dir/logica.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Projeto.dir/logica.c.o   -c "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2_/Projeto/logica.c"
 
 CMakeFiles/Projeto.dir/logica.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Projeto.dir/logica.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/logica.c" > CMakeFiles/Projeto.dir/logica.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2_/Projeto/logica.c" > CMakeFiles/Projeto.dir/logica.c.i
 
 CMakeFiles/Projeto.dir/logica.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Projeto.dir/logica.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/logica.c" -o CMakeFiles/Projeto.dir/logica.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2_/Projeto/logica.c" -o CMakeFiles/Projeto.dir/logica.c.s
 
 # Object files for target Projeto
 Projeto_OBJECTS = \
@@ -125,7 +125,7 @@ Projeto: CMakeFiles/Projeto.dir/Interface.c.o
 Projeto: CMakeFiles/Projeto.dir/logica.c.o
 Projeto: CMakeFiles/Projeto.dir/build.make
 Projeto: CMakeFiles/Projeto.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable Projeto"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2_/Projeto/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable Projeto"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Projeto.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +138,6 @@ CMakeFiles/Projeto.dir/clean:
 .PHONY : CMakeFiles/Projeto.dir/clean
 
 CMakeFiles/Projeto.dir/depend:
-	cd "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto" "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto" "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/cmake-build-debug" "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/cmake-build-debug" "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/cmake-build-debug/CMakeFiles/Projeto.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2_/Projeto/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2_/Projeto" "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2_/Projeto" "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2_/Projeto/cmake-build-debug" "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2_/Projeto/cmake-build-debug" "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2_/Projeto/cmake-build-debug/CMakeFiles/Projeto.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Projeto.dir/depend
 

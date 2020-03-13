@@ -1,4 +1,4 @@
-# Install script for directory: /Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto
+# Install script for directory: /Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2_/Projeto
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2/Projeto/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/lidiasousa/Desktop/2.º Semestre/LI2/Projeto_LI2_/Projeto/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
