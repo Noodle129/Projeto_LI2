@@ -36,6 +36,20 @@ ESTADO *atualiza_tabuleiro(ESTADO *e, COORDENADA c){
     return e;
 }
 
+int atualiza_jogador (ESTADO *e) {
+
+}
+
+ESTADO atualiza_estado(ESTADO *e, COORDENADA c){
+    ESTADO *estado;
+    estado = &((ESTADO){.tab = atualiza_tabuleiro(e,c),
+            .ultima_jogada = c,
+            .jogadas = atualiza_jogadas (e,c),
+            .num_jogadas += 1,
+            .jogador_atual = atualiza_jogador(e)});
+    return estado;
+}
+
 
 // Função que deve ser completada e colocada na camada da lógica do programa
 ESTADO *jogar(ESTADO *e, COORDENADA c) {
