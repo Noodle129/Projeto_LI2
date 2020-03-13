@@ -8,7 +8,8 @@
 
 
 int verifica_jogada(ESTADO *e,COORDENADA c){
-    if (obter_estado_casa(e,c) == VAZIO) {
+    COORDENADA coord = {c.coluna-1,c.linha+1};
+    if (obter_estado_casa(e,coord) == VAZIO) {
         COORDENADA uj = obter_ultima_jogada(e);
         int col = c.coluna;
         int l = c.linha;
@@ -18,10 +19,13 @@ int verifica_jogada(ESTADO *e,COORDENADA c){
         int maxc = uj.coluna + 1;
         if((col>=minc) && (col<=maxc) && (l>=minl) && (l<=maxl))
             return 1;
-        else
+        else {
+            printf("Esta jogada não é valida\n");
             return 0;
-    }
-    else return 0;
+        }
+    }else{
+        printf ("Esta jogada não é valida\n");
+        return 0;}
 }
 
 ESTADO *atualiza_tabuleiro(ESTADO *e, COORDENADA c){
